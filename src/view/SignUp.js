@@ -140,7 +140,12 @@ const SignUp = () => {
   return (
     <div>
       <div className="background"></div>
-
+      <div className="font-brand-kerry" variant="h3">
+        KERRY
+      </div>
+      <div className="font-brand-express" variant="h5">
+        EXPRESS
+      </div>
       <div className="cardText">
         <Layout zIndex={2} element={contentSignUp(handleChange)} />
       </div>
